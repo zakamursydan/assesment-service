@@ -1,4 +1,4 @@
-package com.techno.assesment.assesment_service;
+package com.techno.assesment.assesmentservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

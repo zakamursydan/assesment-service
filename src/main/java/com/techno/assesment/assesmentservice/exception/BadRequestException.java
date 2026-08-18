@@ -1,4 +1,4 @@
-package com.techno.assesment.assesment_service.exception;
+package com.techno.assesment.assesmentservice.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

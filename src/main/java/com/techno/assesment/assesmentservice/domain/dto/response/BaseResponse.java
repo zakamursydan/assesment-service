@@ -1,4 +1,4 @@
-package com.techno.assesment.assesment_service.domain.dto.response;
+package com.techno.assesment.assesmentservice.domain.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

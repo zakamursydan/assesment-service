@@ -1,12 +1,12 @@
-package com.techno.assesment.assesment_service.service.impl;
+package com.techno.assesment.assesmentservice.service.impl;
 
-import com.techno.assesment.assesment_service.domain.dto.request.BrandMobilRequest;
-import com.techno.assesment.assesment_service.domain.dto.response.BrandMobilResponse;
-import com.techno.assesment.assesment_service.domain.entity.BrandMobilEntity;
-import com.techno.assesment.assesment_service.exception.BadRequestException;
-import com.techno.assesment.assesment_service.exception.ResourceNotFoundException;
-import com.techno.assesment.assesment_service.repository.BrandMobilRepository;
-import com.techno.assesment.assesment_service.service.BrandMobilService;
+import com.techno.assesment.assesmentservice.domain.dto.request.BrandMobilRequest;
+import com.techno.assesment.assesmentservice.domain.dto.response.BrandMobilResponse;
+import com.techno.assesment.assesmentservice.domain.entity.BrandMobilEntity;
+import com.techno.assesment.assesmentservice.exception.BadRequestException;
+import com.techno.assesment.assesmentservice.exception.ResourceNotFoundException;
+import com.techno.assesment.assesmentservice.repository.BrandMobilRepository;
+import com.techno.assesment.assesmentservice.service.BrandMobilService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

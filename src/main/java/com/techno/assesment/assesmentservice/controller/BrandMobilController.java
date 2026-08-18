@@ -1,9 +1,9 @@
-package com.techno.assesment.assesment_service.controller;
+package com.techno.assesment.assesmentservice.controller;
 
-import com.techno.assesment.assesment_service.domain.dto.request.BrandMobilRequest;
-import com.techno.assesment.assesment_service.domain.dto.response.BrandMobilResponse;
-import com.techno.assesment.assesment_service.domain.dto.response.BaseResponse;
-import com.techno.assesment.assesment_service.service.BrandMobilService;
+import com.techno.assesment.assesmentservice.domain.dto.request.BrandMobilRequest;
+import com.techno.assesment.assesmentservice.domain.dto.response.BrandMobilResponse;
+import com.techno.assesment.assesmentservice.domain.dto.response.BaseResponse;
+import com.techno.assesment.assesmentservice.service.BrandMobilService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

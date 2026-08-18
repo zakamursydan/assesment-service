@@ -1,7 +1,7 @@
-package com.techno.assesment.assesment_service.service;
+package com.techno.assesment.assesmentservice.service;
 
-import com.techno.assesment.assesment_service.domain.dto.request.BrandMobilRequest;
-import com.techno.assesment.assesment_service.domain.dto.response.BrandMobilResponse;
+import com.techno.assesment.assesmentservice.domain.dto.request.BrandMobilRequest;
+import com.techno.assesment.assesmentservice.domain.dto.response.BrandMobilResponse;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.techno.assesment.assesment_service.domain.entity;
+package com.techno.assesment.assesmentservice.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

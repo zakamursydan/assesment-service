@@ -1,4 +1,4 @@
-package com.techno.assesment.assesment_service.domain.dto.request;
+package com.techno.assesment.assesmentservice.domain.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

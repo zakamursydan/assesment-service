@@ -1,6 +1,6 @@
-package com.techno.assesment.assesment_service.exception;
+package com.techno.assesment.assesmentservice.exception;
 
-import com.techno.assesment.assesment_service.domain.dto.response.BaseResponse;
+import com.techno.assesment.assesmentservice.domain.dto.response.BaseResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
