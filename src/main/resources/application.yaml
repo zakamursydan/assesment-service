@@ -1,0 +1,29 @@
+server:
+  port: 9100
+  servlet:
+    context-path: /assessment
+
+spring:
+  application:
+    name: assesment-service
+  datasource:
+    url: jdbc:postgresql://172.17.4.11:5432/catalog_db_sa_training?currentSchema=development
+    username: adm_crm
+    password: ZE0uSHeAjotE3afb9IkMeljaiUdho1
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: AssesmentHikariPool
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
