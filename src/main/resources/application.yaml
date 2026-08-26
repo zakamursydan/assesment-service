@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: assesment-service
+    name: assessment-service
   datasource:
     url: jdbc:postgresql://172.17.4.11:5432/catalog_db_sa_training?currentSchema=development
     username: adm_crm
@@ -27,3 +27,27 @@ spring:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+  data:
+    redis:
+      host: 172.17.4.11
+      port: 6379
+      username: adm_redis
+      password: 0aBldzTzibRO1venJ0RlwNonaqip2gqHhA1tLzCOu9SVXPruEjis73ujTzOX
+
+  kafka:
+    bootstrap-servers: 172.17.4.11:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: assessment-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    ssl:
+      trust-store-location: classpath:kafka-truststore.jks
+      trust-store-password: qrwtq2uL3NUI1FV83wmc6ngvifOHGt24XUs8mbPv3WDM76M46IqHSoV9y1Yz
+      key-store-location: classpath:kafka-keystore.jks
+      key-store-password: qrwtq2uL3NUI1FV83wmc6ngvifOHGt24XUs8mbPv3WDM76M46IqHSoV9y1Yz
+    properties:
+      security.protocol: SSL
